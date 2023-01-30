@@ -34,7 +34,7 @@ PhantomSection:NewButton("ESP", "Executes The ESP Script", function()
   loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/scripts/main/phantomforces1'),true))()
 end)
 
--- Clicker Simulator
+-- Counter Blox
 
 -- Tab
 local Cb = Window:NewTab("Counter Blox")
