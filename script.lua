@@ -1,11 +1,9 @@
-
 -- Loadstring
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 -- Window
 local Window = Library.CreateLib("SyctheHub", "Sentinel")
 
 -- Jailbreak
-
 -- Tab
 local Jailbreak = Window:NewTab("Jailbreak")
 
@@ -18,7 +16,6 @@ JailbreakSection:NewButton("Execute", "Executes The Jailbreak Script", function(
 end)
 
 -- Phantom Forces
-
 -- Tab
 local Phantom = Window:NewTab("Phantom Forces")
 
@@ -35,7 +32,6 @@ PhantomSection:NewButton("ESP", "Executes The ESP Script", function()
 end)
 
 -- Counter Blox
-
 -- Tab
 local Cb = Window:NewTab("Counter Blox")
 
@@ -48,7 +44,6 @@ CbSection:NewButton("Execute", "Executes The Counter Blox Script", function()
 end)
 
 -- Bedwars
-
 -- Tab
 local Bw = Window:NewTab("Bed Wars")
 
@@ -60,8 +55,109 @@ BwSection:NewButton("Execute", "Executes The Bedwars Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
--- Keybind
+-- Arsenal 
+-- Tab
+local AR = Window:NewTab("Arsenal")
 
+-- Section
+local ARSection = AR:NewSection("Arsenal")
+
+-- Button
+ARSection:NewButton("Owl Hub", "Executes The Owl Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+-- Kat
+-- Tab
+local Kat = Window:NewTab("Kat")
+
+-- Section
+local KatSection = Kat:NewSection("Kat")
+
+-- Button
+KatSection:NewButton("Owl Hub", "Executes The Owl Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+-- Murderer VS Sherrif
+-- Tab
+local KVS = Window:NewTab("Murderer VS Sherrif")
+
+-- Section
+local KVSSection = KVS:NewSection("Murderer VS Sherrif")
+
+-- Button
+KVSSection:NewButton("Excute", "Executes The Owl Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/MurderersVsSheriffs.lua"))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Keybind
 -- Tab
 local Kb = Window:NewTab("Keybind")
 
@@ -72,5 +168,3 @@ local KbSection = Kb:NewSection("Kb")
 KbSection:NewKeybind("Select A Key", "Select A Key", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
-
-
